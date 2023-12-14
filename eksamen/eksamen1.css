@@ -220,9 +220,7 @@ body {
     }
     
     .box img {
-        width: 50%;
         height:320px;
-        object-fit: cover;
     }
     
     @media screen and (max-width: 600px) {
@@ -246,11 +244,6 @@ body {
     @media only screen and (min-width: 960px) {
         .box{
             width: 40%;
-        }
-        .box img {
-            width: 100%;
-            object-fit: cover;
-
         }
     }
 
